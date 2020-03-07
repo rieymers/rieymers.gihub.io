@@ -1,0 +1,35 @@
+.backdrop{
+    background-color: blueviolet;
+}
+
+.disp{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.spacer{
+    height: 10rem;
+}
+
+.highlight:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.smallHeader{
+    margin: 0em;
+}
+
+.footer{
+    background-color: darkslategrey;
+    margin-top: 10rem;
+}
+
+.inv{
+    color: whitesmoke;
+}
+
+a:link{
+    text-decoration: none;
+}
