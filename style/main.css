@@ -12,6 +12,10 @@
     height: 10rem;
 }
 
+.spacer-small{
+    height: 1rem;
+}
+
 .highlight:hover{
     transform: scale(1.06);
     cursor: pointer;
