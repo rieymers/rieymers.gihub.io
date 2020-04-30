@@ -16,6 +16,7 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+  /*background-color: #141416;*/
 }
 
 /* ROOT FONT STYLES */
@@ -23,6 +24,7 @@ body {
 * {
   font-family: 'Lato', Helvetica, sans-serif;
   color: #333447;
+  /*color: #dfdfdf;*/
   line-height: 1.5;
 }
 

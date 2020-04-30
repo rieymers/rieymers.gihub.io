@@ -34,6 +34,10 @@
     color: whitesmoke;
 }
 
+.highlightC{
+    color: #3be69f;
+}
+
 a:link{
     text-decoration: none;
 }
