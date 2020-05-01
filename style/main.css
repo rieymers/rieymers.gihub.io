@@ -23,6 +23,7 @@
 .highlight:hover{
     transform: scale(1.06);
     cursor: pointer;
+    
 }
 
 .smallHeader{
