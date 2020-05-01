@@ -60,6 +60,10 @@ p {
   line-height: 1.4;
 }
 
+.p-small{
+  font-size: .875rem;
+}
+
 .font-light {
   font-weight: 300;
 }
