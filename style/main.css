@@ -30,6 +30,10 @@
     
 }
 
+.highlight:hover{
+    scale: 1.05;
+}
+
 .card:hover .smallHeader{
     color: white;
 }
