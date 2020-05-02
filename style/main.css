@@ -33,7 +33,6 @@
 
 
 .card:hover{
-    position: relative;
     scale: 1.05;
     outline: 0.875rem solid #3be69f;
     background-color: #3be69f;
@@ -46,7 +45,6 @@
 
 .card:hover .smallHeader{
     color: white;
-    font-size: large;
 }
 
 .smallHeader{
