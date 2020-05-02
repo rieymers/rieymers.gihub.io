@@ -20,6 +20,16 @@
     height: 3rem;
 }
 
+.svgDISP{
+    padding-top: 1rem;
+    width: 5rem;
+    height: auto;
+}
+
+#huge{
+    font-size: 3rem;
+    color: #3be69f;
+}
 
 
 .card:hover{
@@ -36,6 +46,7 @@
 
 .card:hover .smallHeader{
     color: white;
+    font-size: large;
 }
 
 .smallHeader{
