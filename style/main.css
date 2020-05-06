@@ -40,13 +40,23 @@
     
 }
 
+.card2:hover{
+    position: relative;
+    scale: 1.05;
+    outline: 0.875rem solid tomato;
+    background-color: tomato;
+}
+
 .highlight:hover{
     scale: 1.05;
 }
 
 .card:hover .smallHeader{
     color: white;
-    font-size: large;
+}
+
+.card2:hover .smallHeader{
+    color: white;
 }
 
 .smallHeader{
