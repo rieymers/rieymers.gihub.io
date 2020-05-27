@@ -43,12 +43,23 @@
     scale: 1.05;
 }
 
+
+ .card:hover .PsmallHeader{
+    color: #141414;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
 .card:hover .smallHeader{
-    color: white;
+    color: #141414;
 }
 
 .smallHeader{
     margin: 0em;
+}
+
+.PsmallHeader{
+    margin:0rem;
 }
 
 .footer{
