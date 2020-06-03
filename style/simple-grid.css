@@ -16,7 +16,19 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: #3be69f white;
   /*background-color: #141416;*/
+}
+
+::-webkit-scrollbar {
+  width: 7.5px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: #3be69f;
 }
 
 /* ROOT FONT STYLES */
