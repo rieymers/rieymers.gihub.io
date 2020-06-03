@@ -23,6 +23,7 @@ body {
 
 * {
   font-family: 'Lato', Helvetica, sans-serif;
+  font-display: fallback;
   color: #333447;
   /*color: #dfdfdf;*/
   line-height: 1.5;
