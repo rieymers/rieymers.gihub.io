@@ -31,6 +31,40 @@
     height: auto;
 }
 
+.mySlides1{
+    display: none;
+}
+
+.mySlides2{
+    display: none;
+}
+
+.slide-button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:#ffffff;
+    background-color:#3be69f;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    margin-top:0.2rem;   
+    font-weight: bold;
+}
+
+.slide-button-right{
+    float: right;
+    margin-right: 0;
+}
+
+.slide-button-left{
+    float: left;
+    margin-left: 0;
+}
+
 #huge{
     font-size: 3rem;
     color: #3be69f;

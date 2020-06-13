@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>hallo highRes!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style/main.css">
+        <link rel="stylesheet" href="/style/simple-grid.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                       <a class="a" href="index.html"> <h4 class="left highlight">hallo Fabian</h4> </a>
+                </div>
+                <div class="col-5"></div>
+
+                
+                <div class="col-1">
+                    <a class="a" href="bio.html"><h4 class="right font-light highlight">about</h4></a>
+                </div>
+                <div class="col-1">
+                    <a class="a" href="contact.html"><h4 class="right font-light highlight">contact</h4></a>
+                </div>
+            </div>
+
+            <div class="row spacer"></div>
+
+           
+
+            <div class="row">
+                <div class="col-12">
+                    <img class="disp" src="/pics/visualize/container_final.gif" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <a href="visualize.html"><h3 class="highlight highlightC">Take me back to the project</h3></a>
+                </div>
+            </div>
+           
+            
+
+           
+            <!--
+            <div class="row">
+                <a href="404.html">
+                <div class="col-6 highlight">
+                    <img class="disp" src="/pics/404.svg" alt="">
+                    <h5 class="smallHeader">Nothing here yet</h5>
+                    <p class="smallHeader">but something will be here - maybe?</p>
+                </div>
+                </a>
+
+                <a href="404.html">
+                    <div class="col-6 highlight">
+                        <img class="disp" src="/pics/404.svg" alt="">
+                        <h5 class="smallHeader">Nothing here yet</h5>
+                        <p class="smallHeader">but something will be here - maybe?</p>
+                    </div>
+                    </a>
+            </div>
+
+        -->
+            
+
+            <div class="row spacer"></div>
+            <div class="row">
+                <div class="col-6 "> </div>
+                <div class="col-2 ">
+                    <p>Copyright<br>Fabian Kuehne 2020</p>
+                </div>
+                <div class="col-2 ">
+                    <p>Sorry, this website doesn't serve cookies!</p>
+                </div>
+
+                <a class="a" href="impressum.html">
+                <div class="col-2 ">
+                    <p class="font-regular right">Impressum</p>
+                </div>
+                </a>
+            </div>
+            
+
+           
+
+        </div>
+
+        
+        <script>
+            var slideIndex = [1,1];
+            var slideId = ["mySlides1", "mySlides2"]
+            showDivs(1, 0);
+            showDivs(1, 1);
+
+            function plusDivs(n, no) {
+            showDivs(slideIndex[no] += n, no);
+            }
+
+            function showDivs(n, no) {
+            var i;
+            var x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) {slideIndex[no] = 1}
+            if (n < 1) {slideIndex[no] = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex[no]-1].style.display = "block";  
+            }
+           
+        </script>
+    </body>
+</html>
