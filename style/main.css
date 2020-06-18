@@ -20,13 +20,8 @@
     height: 3rem;
 }
 
-.svgDISP{
-    padding-top: 1rem;
-    width: 5rem;
-    height: auto;
-}
 
-.svgDispFull{
+.svg-wrapper{
     width:100%;
     height: auto;
 }
@@ -38,6 +33,7 @@
 .mySlides2{
     display: none;
 }
+
 
 .slide-button{
     border:none;
