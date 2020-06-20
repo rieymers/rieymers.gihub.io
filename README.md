@@ -6,5 +6,21 @@ Usually 2 branches
 master: displays the website used for most work
 experimental: to test new features and work out different styles of presentation
 
-from time to time there is a third one
-refactor: to optimize the codebase
+
+## 20.06.2020 - V 1.0 - the Abbie Update:
+
+biggest under the hood update yet!
+
+renamed bioHTML to about-me
+renamed heliosHtml to apollo
+created a completely new website structure
+-> projects are now under /work
+-> sub pages of projects are in a folder named /work/[project_page_name]
+relinked all relative paths
+removed all unecessary code  
+removed font folder 
+restructured pictures
+
+
+
+
