@@ -7,7 +7,7 @@ master: displays the website used for most work
 experimental: to test new features and work out different styles of presentation
 
 
-## 20.06.2020 - V 1.0 - the Abbie Update:
+## 20.06.2020 - v1.0 - the Abbie Update:
 
 biggest under the hood update yet!
 
@@ -22,4 +22,8 @@ removed font folder
 restructured pictures  
 added the experimental loading tag  
 
+
+
+### v2.0 will be the Alyx update!  
+stay tuned
 
