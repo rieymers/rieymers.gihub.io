@@ -168,3 +168,15 @@ a:link{
         backdrop-filter:saturate(180%) blur(20px);
         background-color: rbga(255,255,255,0.7);
     }
+
+    #pride {
+        margin-top: 4.3rem;
+        background: red;
+        background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+        background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+        background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+        background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
