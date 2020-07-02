@@ -28,5 +28,7 @@ added the experimental loading tag
 
 
 switched to dark mode  
-went bold
+went bold  
+added a video  
+too experimental, but hey
 
