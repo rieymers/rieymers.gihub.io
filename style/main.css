@@ -1,7 +1,3 @@
-.backdrop{
-    background-color: blueviolet;
-}
-
 .disp{
     height: 100%;
     width: 100%;
@@ -20,10 +16,46 @@
     height: 3rem;
 }
 
-.svgDISP{
-    padding-top: 1rem;
-    width: 5rem;
+
+.svg-wrapper{
+    width:100%;
     height: auto;
+}
+
+.mySlides1{
+    display: none;
+}
+
+.mySlides2{
+    display: none;
+}
+
+
+
+.slide-button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:#ffffff;
+    background-color:#3be69f;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    margin-top:0.2rem;   
+    font-weight: bold;
+}
+
+.slide-button-right{
+    float: right;
+    margin-right: 0;
+}
+
+.slide-button-left{
+    float: left;
+    margin-left: 0;
 }
 
 #huge{
@@ -33,34 +65,33 @@
 
 
 .card:hover{
-    position: relative;
     scale: 1.05;
     outline: 0.875rem solid #3be69f;
     background-color: #3be69f;
     
 }
 
-.card2:hover{
-    position: relative;
-    scale: 1.05;
-    outline: 0.875rem solid tomato;
-    background-color: tomato;
-}
-
 .highlight:hover{
     scale: 1.05;
 }
 
-.card:hover .smallHeader{
-    color: white;
+
+ .card:hover .PsmallHeader{
+    color: #141414;
+    font-weight: 400;
+    font-size: 1.1rem;
 }
 
-.card2:hover .smallHeader{
-    color: white;
+.card:hover .smallHeader{
+    color: #141414;
 }
 
 .smallHeader{
     margin: 0em;
+}
+
+.PsmallHeader{
+    margin:0rem;
 }
 
 .footer{
@@ -97,3 +128,13 @@ a:link{
     width: 100%;
     height: 100%;
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background:#3be69f;
+  }
+  
+  ::selection {
+    color: black;
+    background:#3be69f;
+  }

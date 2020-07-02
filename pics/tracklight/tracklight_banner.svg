@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="tracklight_banner.svg"
+   width="400"
+   height="300"
+   viewBox="0 0 105.83333 79.375002"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:snap-page="true"
+     inkscape:window-maximized="1"
+     inkscape:window-y="22"
+     inkscape:window-x="-8"
+     inkscape:window-height="1027"
+     inkscape:window-width="1920"
+     inkscape:guide-bbox="true"
+     showguides="true"
+     units="px"
+     id="base"
+     pagecolor="#1e1e1e"
+     bordercolor="#ff0066"
+     borderopacity="1"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="64.242467"
+     inkscape:cy="99.00184"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     inkscape:pagecheckerboard="false">
+    <sodipodi:guide
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="false"
+       inkscape:label=""
+       id="guide845"
+       orientation="-1,0"
+       position="-244.55059,55.184524" />
+    <sodipodi:guide
+       id="guide990"
+       orientation="1,0"
+       position="170.51796,38.215493" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Fabian Kuehne</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:rights>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     sodipodi:insensitive="true"
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <g
+     inkscape:label="drawing"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <path
+       d="m 1.8040693,-80.60611 v 36.024911 l 4.866092,-18.161394 H 101.88704 v -10.788311 h 6.5711 6.5711 v 10.788311 h 95.21689 l 4.86608,18.161394 V -80.60611 Z M 215.11221,-44.581199 h -7.52307 v 4.475513 h -99.131 -99.1310007 v -4.475513 h -7.52307 V 28.949705 L 6.6701613,10.788313 H 101.88704 V 0 h 6.5711 6.5711 v 10.788313 h 95.21689 l 4.86608,18.161392 z m 0,73.530904 h -7.52307 v 4.47551 h -99.131 -99.1310007 v -4.47551 h -7.52307 V 79.375 H 215.11221 Z"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.54187;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect890" />
+    <path
+       d="M 101.96924,36.775898 V 47.429261 H 7.9434343 L 3.1382125,65.363473 h 7.4289625 v 4.419526 h 97.890965 97.89095 v -4.419526 h 7.42895 L 208.97283,47.429261 H 114.94705 V 36.775898 h -6.48891 z"
+       style="fill:none;stroke:#3be69f;stroke-width:0.64955208;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path866" />
+    <text
+       id="text872"
+       y="66.886269"
+       x="13.289792"
+       style="font-style:normal;font-weight:normal;font-size:7.16144px;line-height:1.25;font-family:sans-serif;fill:#3be69f;fill-opacity:1;stroke:none;stroke-width:0.179037"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';fill:#3be69f;fill-opacity:1;stroke-width:0.179037"
+         y="66.886269"
+         x="13.289792"
+         id="tspan870"
+         sodipodi:role="line">Tracklight 75</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.16144px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.179037"
+       x="13.289792"
+       y="30.319164"
+       id="text876"><tspan
+         sodipodi:role="line"
+         id="tspan874"
+         x="13.289792"
+         y="30.319164"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.179037">Tracklight 75</tspan></text>
+    <path
+       id="path878"
+       style="fill:none;stroke:#3be69f;stroke-width:1.52257;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 101.96924,-36.754526 v 10.653361 H 7.9434343 L 3.1382125,-8.1669506 h 7.4289625 v 4.4195235 h 97.890965 97.89095 v -4.4195235 h 7.42895 l -4.80521,-17.9342144 h -94.02578 v -10.653361 h -6.48891 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.16144px;line-height:1.25;font-family:sans-serif;fill:#3be69f;fill-opacity:1;stroke:none;stroke-width:0.179037"
+       x="13.289792"
+       y="-6.6441455"
+       id="text884"><tspan
+         sodipodi:role="line"
+         id="tspan882"
+         x="13.289792"
+         y="-6.6441455"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';fill:#3be69f;fill-opacity:1;stroke-width:0.179037">Tracklight 75</tspan></text>
+    <text
+       id="text888"
+       y="-43.211254"
+       x="13.289792"
+       style="font-style:normal;font-weight:normal;font-size:7.16144px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.179037"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.179037"
+         y="-43.211254"
+         x="13.289792"
+         id="tspan886"
+         sodipodi:role="line">Tracklight 75</tspan></text>
+    <rect
+       y="-5.8586307"
+       x="-19.276785"
+       height="89.958336"
+       width="21.294079"
+       id="rect998"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.760538;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

@@ -16,18 +16,39 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
-  /*background-color: #141416;*/
+  /*firefox scrollbar support*/
+  scrollbar-width: thick;
+  scrollbar-color: #3be69f #333447;
+  background-color: #333447 ;
+}
+
+  /*chromium scrollbar support*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: #3be69f;
 }
 
 /* ROOT FONT STYLES */
 
 * {
   font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
+  font-display: fallback;
+  color: #dfdfdf;
   /*color: #dfdfdf;*/
   line-height: 1.5;
 }
 
+/*
+@font-face{
+  font-family: Lato;
+  src: url(/font/LatoLatin-Regular.woff2);
+}
+*/
 /* TYPOGRAPHY */
 
 h1 {
@@ -252,6 +273,6 @@ p {
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
     width: 75%;
-    max-width: 60rem;
+    max-width: 70rem;
   }
 }
