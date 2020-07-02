@@ -67,11 +67,10 @@
 }
 
 .card{
-    backdrop-filter: saturate(180%) blur(20px);
-    background-color: #333447e1;
+    backdrop-filter:saturate(180%) blur(20px);
+    background-color: rbga(255,255,255,0.7);
     padding: 1rem;
     margin: 0.5rem;
-    overflow: hidden;
 }
 
 .card:hover{
@@ -157,10 +156,15 @@ a:link{
     right: 0;
     bottom: 0;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 110%;
   }
 
   .overlay-text{
       position: relative;
       
+    }
+
+    .full-blur{
+        backdrop-filter:saturate(180%) blur(20px);
+        background-color: rbga(255,255,255,0.7);
     }
