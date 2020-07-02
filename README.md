@@ -24,6 +24,9 @@ added the experimental loading tag
 
 
 
-### v2.0 will be the Alyx update!  
-stay tuned
+### 02.07.2020 - v1.1 - new color who dis  
+
+
+switched to dark mode  
+went bold
 
