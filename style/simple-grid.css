@@ -18,8 +18,8 @@ body {
   font-size: 100%;
   /*firefox scrollbar support*/
   scrollbar-width: thick;
-  scrollbar-color: #3be69f white;
-  /*background-color: #141416;*/
+  scrollbar-color: #3be69f #333447;
+  background-color: #333447 ;
 }
 
   /*chromium scrollbar support*/
@@ -38,7 +38,7 @@ body {
 * {
   font-family: 'Lato', Helvetica, sans-serif;
   font-display: fallback;
-  color: #333447;
+  color: #dfdfdf;
   /*color: #dfdfdf;*/
   line-height: 1.5;
 }
