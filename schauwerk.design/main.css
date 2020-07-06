@@ -21,6 +21,7 @@ body, html {
 
 #main-page{
     display: none;
+    cursor: pointer;
 }
 
 .center{
@@ -191,22 +192,22 @@ p{
       display: flex;
       flex-direction: row;
       position: absolute;
-      top: 20%;
+      top: 10%;
       flex-wrap: wrap;
       overflow: auto;
       float: right;
   }
 
   .flex-item{
-      width:30rem;
-      height:18rem;
+      width:28rem;
+      height:16rem;
       background-color: white;
       border-radius: 0 0 0 2rem;
       margin: 2rem 2rem 1rem 2rem;
   }
 
   .flex-item img{
-      height: 250px;
+      height: 220px;
   }
 
   .flex-item h3{
@@ -267,4 +268,43 @@ p{
     }
 
   }
+
+@media screen and (max-width:576px){
+    body{
+        background-color: #ff630e;
+    }
+
+    .content{
+        position: absolute;
+        color: white;
+        width: 20rem;
+        left: 22rem;
+        top: 5rem;
+        z-index: 2;
+    }
+
+    .content-limiter{
+        position: absolute;
+        bottom:-40rem;
+        left:-20rem;
+        width: 60rem;
+        height: 60rem;
+        border-radius: 30rem;
+        overflow: hidden;
+        background-color: #ff630e;
+        z-index: 2;
+    }
+
+    .flex-container{
+        top: 50%;
+        left: 5rem;
+        margin-right: 0;
+    }
+
+    .flex-item{
+        width: 22rem;
+        height: 16rem;
+        margin-left: 4rem;
+    }
+}
 
