@@ -180,3 +180,90 @@ a:link{
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+    .card-blank{
+        width: 100%;
+        
+        
+        padding:0;
+        border-radius: .3rem;
+        cursor: pointer;
+    }
+
+  
+    .card-blank:hover .center-header{
+        color: white;
+        transition: all 250ms linear;
+    }
+
+    .center-header{
+        position: relative;
+        font-size: 4rem;
+        color: #3be69f;
+        padding: 0;
+        margin: 0;
+    }
+
+    .attention-h{
+        color: #3be69f;
+        font-size: 3rem;
+        padding: 0;
+        font-weight: 700;
+    }
+
+    .attention-p{
+        color: white;
+        padding: 0;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        margin: 0 0 4rem 0;
+
+    }
+
+    .content-wrapper{
+       
+        top: 8rem;
+        left: 0;
+        right: 0;
+        height: 1%;
+        backdrop-filter:saturate(180%) blur(20px);
+        background-color: rbga(255,255,255,0.7);
+        display: block;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .content-wrapper-null{
+        display: none;
+    }
+
+    .content-card{
+        float: left;
+        width: 50%;
+        
+    }
+
+    .content-card:hover{
+        background-color: #3be69f;
+        transition: all 200ms ease-in-out;
+    }
+
+    .content-card:hover .header-card{
+        color: #333447;
+        transition: all 200ms ease-in-out;
+    }
+
+    .disp-card{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .header-card{
+        margin-left: 5%;
+        margin-top: 0;
+        margin-bottom: 0.3rem;
+        padding: 0;
+    }
+    

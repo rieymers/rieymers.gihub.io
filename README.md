@@ -30,5 +30,12 @@ added the experimental loading tag
 switched to dark mode  
 went bold  
 added a video  
-too experimental, but hey
+too experimental, but hey  
+
+### 06.07.2020 - v1.4 - the lambda update  
+
+skipped version 1.2 && 1.3  
+added logic aka js!  
+changed the way of interaction  
+created the new look and feel  
 
