@@ -272,6 +272,7 @@ p{
 @media screen and (max-width:576px){
     body{
         background-color: #ff630e;
+        overflow-x:hidden;
     }
 
     .content{
@@ -305,6 +306,20 @@ p{
         width: 22rem;
         height: 16rem;
         margin-left: 4rem;
+    }
+
+    .center{
+        padding-top: 15rem;
+        text-align: center;
+        font-size: 4rem;
+        margin: 0;
+        text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+    
+     cursor: pointer;
     }
 }
 
