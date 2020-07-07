@@ -8,6 +8,10 @@
     height: 10rem;
 }
 
+.spacer-flexible{
+    height: 10rem;
+}
+
 .spacer-small{
     height: 1rem;
 }
@@ -265,5 +269,11 @@ a:link{
         margin-top: 0;
         margin-bottom: 0.3rem;
         padding: 0;
+    }
+
+    @media screen and (max-width: 1400px){
+        .spacer-flexible{
+            height: 0rem;
+        }
     }
     
