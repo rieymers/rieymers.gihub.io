@@ -225,16 +225,11 @@ a:link{
     }
 
     .content-wrapper{
-       
-        top: 8rem;
-        left: 0;
-        right: 0;
-        height: 1%;
-        backdrop-filter:saturate(180%) blur(20px);
-        background-color: rbga(255,255,255,0.7);
-        display: block;
-        cursor: pointer;
-        overflow: hidden;
+       position: relative;
+       display: block;
+       height: 15rem   ;
+       width: 100%;
+       overflow: hidden;
     }
 
     .content-wrapper-null{
@@ -244,7 +239,15 @@ a:link{
     .content-card{
         float: left;
         width: 50%;
-        
+        background-color: #ffffff;
+        height: 11rem;
+    }
+    .content-card-empty{
+        width: 100%;
+        float: left;
+        width: 50%;
+        background-color: #ffffff;
+        height: 11rem;
     }
 
     .content-card:hover{
@@ -252,10 +255,6 @@ a:link{
         transition: all 200ms ease-in-out;
     }
 
-    .content-card:hover .header-card{
-        color: #333447;
-        transition: all 200ms ease-in-out;
-    }
 
     .disp-card{
         width: 90%;
@@ -266,9 +265,14 @@ a:link{
 
     .header-card{
         margin-left: 5%;
-        margin-top: 0;
+        margin-top: 1rem;
         margin-bottom: 0.3rem;
         padding: 0;
+        color: #333447;
+    }
+
+    .header-card h1{
+        margin-top:2rem;
     }
 
     @media screen and (max-width: 1400px){
