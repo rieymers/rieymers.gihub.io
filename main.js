@@ -35,7 +35,7 @@ x[slideIndex[no]-1].style.display = "block";
 
 Just to be clear. This is by NO means, like absolutely NO MEANS a serious pw protection nor should it be considered as one - EVER - just no
 and if you are checking the 'codebase' for hints of the pw - well, then you earned your right to visit this project.
-But it is a very easy to implement and perfectly suitable for this kind of job on a static website - so yeah - no big mysteries behind this soft wall
+But it is very easy to implement and perfectly suitable for this kind of job on a static website - so yeah - no big mysteries behind this soft wall
 
 */
 
