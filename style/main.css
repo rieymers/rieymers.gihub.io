@@ -275,6 +275,43 @@ a:link{
         margin-top:2rem;
     }
 
+    #paw-zone-ent{
+        display: block;
+    }
+
+
+    #paw-zone-lock{
+        display: none;
+    }
+
+    #pw-input{
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        color: #333447a8;
+        font-size: 68px;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+    #pw-submit{
+        font-size: 40px;
+        width: 20%;
+        height: 70px;
+        margin-left: 40%;
+        margin-right: 40%;
+        color: #333447;
+        background-color: #3be69f;
+        cursor: pointer;
+        border:0;
+    }
+
+    #pw-submit:hover{
+        color: white;
+        transition: all 250ms linear;
+    }
+
     @media screen and (max-width: 1400px){
         .spacer-flexible{
             height: 0rem;

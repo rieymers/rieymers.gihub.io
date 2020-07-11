@@ -17,6 +17,60 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <img id='myVideo' src="/pics/fallback_dark.jpg" alt="">
+
+
+        <section id="paw-zone-ent">
+        <div class="container">
+            <div class="row">
+        
+                <div class="col-4">
+                       <a class="a" href="/index.html"> <img class="svg-wrapper" src="/pics/experimental/halloFabian.svg" alt=""> </a>
+                </div>
+
+                <div class="col-4">
+
+                </div>
+                
+                <div class="col-2">
+                    <a class="a" href="/about-me.html"><h3 class="right push-down highlightC">about</h3></a>
+                </div>
+                <div class="col-2">
+                    <a class="a" href="/contact.html"><h3 class="right push-down highlightC">contact</h4></a>
+                </div>
+
+            </div>
+
+            <div class="row spacer"></div>
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="highlightC center">This project is password protected!</h2>
+                    <p class="center">Please contact me or enter the code I sent you.</p>
+                    <input id="pw-input" class="" placeholder="" type="password">
+                    <button id="pw-submit" onclick="clearContent()" type="submit">Submit</button>
+                </div>
+            </div>
+
+            <div class="row spacer"></div>
+            <div class="row spacer"></div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <p class="p-small center">You could also try to guess the code. Or look around for it. The code is not exactly well hidden.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        </section>
+
+<!--
+    SERIOUSLY? You just want to change the display property to block? 
+    That is really low of you. The passcode is not really well hidden, just look around a bit to find it.
+    You can do it! (it feels way better this way anyhow)
+-->
+
+        <section id="paw-zone-lock">
         <div class="container">
             <div class="row">
         
@@ -118,6 +172,7 @@
                 </div>
             </div>
 
+            </section>
            
            
 
@@ -141,35 +196,10 @@
                 </div>
                 </a>
             </div>
-            
-
-           
 
         </div>
 
         
-        <script>
-            
-            var slideIndex = [1,1];
-            var slideId = ["mySlides1", "mySlides2"]
-            showDivs(1, 0);
-            showDivs(1, 1);
-
-            function plusDivs(n, no) {
-            showDivs(slideIndex[no] += n, no);
-            }
-
-            function showDivs(n, no) {
-            var i;
-            var x = document.getElementsByClassName(slideId[no]);
-            if (n > x.length) {slideIndex[no] = 1}
-            if (n < 1) {slideIndex[no] = x.length}
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-            }
-            x[slideIndex[no]-1].style.display = "block";  
-            }
-           
-        </script>
+        <script src="/main.js"></script>
     </body>
 </html>
